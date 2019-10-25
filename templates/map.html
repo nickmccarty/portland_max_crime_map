@@ -1,0 +1,2007 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e2f1a51fce6e467886f26d3419ec2857 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_e2f1a51fce6e467886f26d3419ec2857" ></div>
+        
+</body>
+<script>    
+    
+            var map_e2f1a51fce6e467886f26d3419ec2857 = L.map(
+                "map_e2f1a51fce6e467886f26d3419ec2857",
+                {
+                    center: [45.54, -122.675],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_88c4cf57efad47e2aafc9f42e8b88722 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+            var circle_3878a1c9e6234f9db037572f25b0f507 = L.circle(
+                [45.5202761, -122.69125990000002],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "19", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_26960352f9524bcc8b6212b733f2b985 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b27076175beb493bb4648c40fba2f7b9 = $(`<div id="html_b27076175beb493bb4648c40fba2f7b9" style="width: 100.0%; height: 100.0%;">Kings Hill/SW Salmon St MAX Station</div>`)[0];
+            popup_26960352f9524bcc8b6212b733f2b985.setContent(html_b27076175beb493bb4648c40fba2f7b9);
+        
+
+        circle_3878a1c9e6234f9db037572f25b0f507.bindPopup(popup_26960352f9524bcc8b6212b733f2b985)
+        ;
+
+        
+    
+    
+            circle_3878a1c9e6234f9db037572f25b0f507.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 19
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1175e41ec31e4a938bc1f85c9f77cce7 = L.circle(
+                [45.5302531, -122.6678177],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "33", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_75efe09e17f84805b994e3955f491078 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad6242654de440cf9d41511df114718c = $(`<div id="html_ad6242654de440cf9d41511df114718c" style="width: 100.0%; height: 100.0%;">Interstate/Rose Quarter MAX Station</div>`)[0];
+            popup_75efe09e17f84805b994e3955f491078.setContent(html_ad6242654de440cf9d41511df114718c);
+        
+
+        circle_1175e41ec31e4a938bc1f85c9f77cce7.bindPopup(popup_75efe09e17f84805b994e3955f491078)
+        ;
+
+        
+    
+    
+            circle_1175e41ec31e4a938bc1f85c9f77cce7.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f789a85a7eb346c0957f35c0c4687e82 = L.circle(
+                [45.5774909, -122.68202759999998],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "137", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_5b26fdab09c0459f8fa563454023d479 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a696984dbee7496a8154df5fe4cee4cb = $(`<div id="html_a696984dbee7496a8154df5fe4cee4cb" style="width: 100.0%; height: 100.0%;">N Lombard TC MAX Station</div>`)[0];
+            popup_5b26fdab09c0459f8fa563454023d479.setContent(html_a696984dbee7496a8154df5fe4cee4cb);
+        
+
+        circle_f789a85a7eb346c0957f35c0c4687e82.bindPopup(popup_5b26fdab09c0459f8fa563454023d479)
+        ;
+
+        
+    
+    
+            circle_f789a85a7eb346c0957f35c0c4687e82.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 137
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_cea9e9c1cc244ea69cc6429b80753960 = L.circle(
+                [45.562668, -122.6822429],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "23", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_1f93d52b8192472cbf86a7a996b01934 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2beb85c89fe04e02be12d404230f1907 = $(`<div id="html_2beb85c89fe04e02be12d404230f1907" style="width: 100.0%; height: 100.0%;">N Killingsworth St MAX Station</div>`)[0];
+            popup_1f93d52b8192472cbf86a7a996b01934.setContent(html_2beb85c89fe04e02be12d404230f1907);
+        
+
+        circle_cea9e9c1cc244ea69cc6429b80753960.bindPopup(popup_1f93d52b8192472cbf86a7a996b01934)
+        ;
+
+        
+    
+    
+            circle_cea9e9c1cc244ea69cc6429b80753960.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 23
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_fd819b3b1d584fbfbe3364e82b9b1a34 = L.circle(
+                [45.5213658, -122.69007859999998],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "68", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_6059da87bed94014a27694f064169dce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0a54b14462b428fa570740b2c79b552 = $(`<div id="html_c0a54b14462b428fa570740b2c79b552" style="width: 100.0%; height: 100.0%;">Providence Park MAX Station</div>`)[0];
+            popup_6059da87bed94014a27694f064169dce.setContent(html_c0a54b14462b428fa570740b2c79b552);
+        
+
+        circle_fd819b3b1d584fbfbe3364e82b9b1a34.bindPopup(popup_6059da87bed94014a27694f064169dce)
+        ;
+
+        
+    
+    
+            circle_fd819b3b1d584fbfbe3364e82b9b1a34.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 68
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_cf5eed6d7d5c41eb95072d631d35928a = L.circle(
+                [45.5028631, -122.6533888],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "10", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_e93dc7a6a3dc41c4bf8f1b83f18814b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a487dff224b48a39911f3e6359f3596 = $(`<div id="html_8a487dff224b48a39911f3e6359f3596" style="width: 100.0%; height: 100.0%;">Clinton/SE 12th Ave MAX Station</div>`)[0];
+            popup_e93dc7a6a3dc41c4bf8f1b83f18814b8.setContent(html_8a487dff224b48a39911f3e6359f3596);
+        
+
+        circle_cf5eed6d7d5c41eb95072d631d35928a.bindPopup(popup_e93dc7a6a3dc41c4bf8f1b83f18814b8)
+        ;
+
+        
+    
+    
+            circle_cf5eed6d7d5c41eb95072d631d35928a.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 10
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4c50402c72c443cebf3d7aa8a8764953 = L.circle(
+                [45.500417, -122.8330549],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "49", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_8436a7864ff04ffe95d224709b6ca8bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e724ab34764847179cb4e3e10f528c05 = $(`<div id="html_e724ab34764847179cb4e3e10f528c05" style="width: 100.0%; height: 100.0%;">Beaverton Creek MAX Station</div>`)[0];
+            popup_8436a7864ff04ffe95d224709b6ca8bc.setContent(html_e724ab34764847179cb4e3e10f528c05);
+        
+
+        circle_4c50402c72c443cebf3d7aa8a8764953.bindPopup(popup_8436a7864ff04ffe95d224709b6ca8bc)
+        ;
+
+        
+    
+    
+            circle_4c50402c72c443cebf3d7aa8a8764953.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 49
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_5634ff09d1d749bd8379a0720455051f = L.circle(
+                [45.5960067, -122.6856041],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "50", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_7fa6e6503d094da09cdad64b68a09dc2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28d2a6106dfd4b11ae2678d7346192b3 = $(`<div id="html_28d2a6106dfd4b11ae2678d7346192b3" style="width: 100.0%; height: 100.0%;">Delta Park/Vanport MAX Station</div>`)[0];
+            popup_7fa6e6503d094da09cdad64b68a09dc2.setContent(html_28d2a6106dfd4b11ae2678d7346192b3);
+        
+
+        circle_5634ff09d1d749bd8379a0720455051f.bindPopup(popup_7fa6e6503d094da09cdad64b68a09dc2)
+        ;
+
+        
+    
+    
+            circle_5634ff09d1d749bd8379a0720455051f.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 50
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b5586637628c43a6aef6130e1fffd54c = L.circle(
+                [45.5089205, -122.6830776],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "29", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_028c23bdfb0c4369be552c1f3665d70a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73898db6fad14dfeb506e040579140d5 = $(`<div id="html_73898db6fad14dfeb506e040579140d5" style="width: 100.0%; height: 100.0%;">PSU South/SW 5th and Jackson MAX Station</div>`)[0];
+            popup_028c23bdfb0c4369be552c1f3665d70a.setContent(html_73898db6fad14dfeb506e040579140d5);
+        
+
+        circle_b5586637628c43a6aef6130e1fffd54c.bindPopup(popup_028c23bdfb0c4369be552c1f3665d70a)
+        ;
+
+        
+    
+    
+            circle_b5586637628c43a6aef6130e1fffd54c.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 29
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_fd00372647d14822b932b0d75108b905 = L.circle(
+                [45.5115189, -122.6826171],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "37", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_cb7404bedad1460f98e8a49089f92de1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_245b673133ad4b44bfd899512ee6d9dd = $(`<div id="html_245b673133ad4b44bfd899512ee6d9dd" style="width: 100.0%; height: 100.0%;">PSU Urban Center/SW 6th and Montgomery MAX Station</div>`)[0];
+            popup_cb7404bedad1460f98e8a49089f92de1.setContent(html_245b673133ad4b44bfd899512ee6d9dd);
+        
+
+        circle_fd00372647d14822b932b0d75108b905.bindPopup(popup_cb7404bedad1460f98e8a49089f92de1)
+        ;
+
+        
+    
+    
+            circle_fd00372647d14822b932b0d75108b905.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 37
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_80b1bdb802a44b719f162027f0939c6f = L.circle(
+                [45.491118, -122.566272],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "15", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_bbfb148bf67a44f0977a0d99e089f853 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3398054b0674d3096657f8619cb82a1 = $(`<div id="html_c3398054b0674d3096657f8619cb82a1" style="width: 100.0%; height: 100.0%;">SE Holgate Blvd MAX Station</div>`)[0];
+            popup_bbfb148bf67a44f0977a0d99e089f853.setContent(html_c3398054b0674d3096657f8619cb82a1);
+        
+
+        circle_80b1bdb802a44b719f162027f0939c6f.bindPopup(popup_bbfb148bf67a44f0977a0d99e089f853)
+        ;
+
+        
+    
+    
+            circle_80b1bdb802a44b719f162027f0939c6f.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 15
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_94b7cae8aaee449fa3a5d92883750a50 = L.circle(
+                [45.48043699999999, -122.5668079],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "28", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_90aae43175124ce5b422f3c00eeec936 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ec2a2ba9f7140c9b04e7aebe4dcba44 = $(`<div id="html_6ec2a2ba9f7140c9b04e7aebe4dcba44" style="width: 100.0%; height: 100.0%;">Lents/SE Foster Rd MAX Station</div>`)[0];
+            popup_90aae43175124ce5b422f3c00eeec936.setContent(html_6ec2a2ba9f7140c9b04e7aebe4dcba44);
+        
+
+        circle_94b7cae8aaee449fa3a5d92883750a50.bindPopup(popup_90aae43175124ce5b422f3c00eeec936)
+        ;
+
+        
+    
+    
+            circle_94b7cae8aaee449fa3a5d92883750a50.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 28
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_930eb14f5f034c84b5fe60369b1e825b = L.circle(
+                [45.5837653, -122.6858304],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "9", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_038af2d3eff94cb0b409d658442f2912 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da3fa4e0200a420eab5a086b287052fa = $(`<div id="html_da3fa4e0200a420eab5a086b287052fa" style="width: 100.0%; height: 100.0%;">Kenton/N Denver Ave MAX Station</div>`)[0];
+            popup_038af2d3eff94cb0b409d658442f2912.setContent(html_da3fa4e0200a420eab5a086b287052fa);
+        
+
+        circle_930eb14f5f034c84b5fe60369b1e825b.bindPopup(popup_038af2d3eff94cb0b409d658442f2912)
+        ;
+
+        
+    
+    
+            circle_930eb14f5f034c84b5fe60369b1e825b.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 9
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_716867041e7d4e95a5aa24fbb3da4e1b = L.circle(
+                [45.495747, -122.566184],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "23", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_d25a465328a44526b4582804523dc7c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_155ef033be2340fe9d7b6b31a6db94ab = $(`<div id="html_155ef033be2340fe9d7b6b31a6db94ab" style="width: 100.0%; height: 100.0%;">SE Powell Blvd MAX Station</div>`)[0];
+            popup_d25a465328a44526b4582804523dc7c2.setContent(html_155ef033be2340fe9d7b6b31a6db94ab);
+        
+
+        circle_716867041e7d4e95a5aa24fbb3da4e1b.bindPopup(popup_d25a465328a44526b4582804523dc7c2)
+        ;
+
+        
+    
+    
+            circle_716867041e7d4e95a5aa24fbb3da4e1b.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 23
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f8f44eb9dad84f5486ed0e87dfbfc1e3 = L.circle(
+                [45.5032624, -122.5666709],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "39", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_5cf0e9b31e354f18b7f57323509e6498 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17cacc4b2837401e885fd27169da9fc8 = $(`<div id="html_17cacc4b2837401e885fd27169da9fc8" style="width: 100.0%; height: 100.0%;">SE Division St MAX Station</div>`)[0];
+            popup_5cf0e9b31e354f18b7f57323509e6498.setContent(html_17cacc4b2837401e885fd27169da9fc8);
+        
+
+        circle_f8f44eb9dad84f5486ed0e87dfbfc1e3.bindPopup(popup_5cf0e9b31e354f18b7f57323509e6498)
+        ;
+
+        
+    
+    
+            circle_f8f44eb9dad84f5486ed0e87dfbfc1e3.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 39
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d4e606bc8feb40f991dff258ef0dc428 = L.circle(
+                [45.5143936, -122.5644639],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "329", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_00e0bb2d69a54d68a95f9873a88e18d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_726e90f61bf1453ba7049e54e2e5e639 = $(`<div id="html_726e90f61bf1453ba7049e54e2e5e639" style="width: 100.0%; height: 100.0%;">SE Main St MAX Station</div>`)[0];
+            popup_00e0bb2d69a54d68a95f9873a88e18d4.setContent(html_726e90f61bf1453ba7049e54e2e5e639);
+        
+
+        circle_d4e606bc8feb40f991dff258ef0dc428.bindPopup(popup_00e0bb2d69a54d68a95f9873a88e18d4)
+        ;
+
+        
+    
+    
+            circle_d4e606bc8feb40f991dff258ef0dc428.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 329
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_059f4a61a3584f2182cb8c00f9336c2c = L.circle(
+                [45.5198359, -122.68159],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "272", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_07ca5b11337b4c82a656c0f19cc638cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a2d14fc482b44c291ca36c3d2ccb1f7 = $(`<div id="html_0a2d14fc482b44c291ca36c3d2ccb1f7" style="width: 100.0%; height: 100.0%;">Galleria/SW 10th Ave MAX Station</div>`)[0];
+            popup_07ca5b11337b4c82a656c0f19cc638cb.setContent(html_0a2d14fc482b44c291ca36c3d2ccb1f7);
+        
+
+        circle_059f4a61a3584f2182cb8c00f9336c2c.bindPopup(popup_07ca5b11337b4c82a656c0f19cc638cb)
+        ;
+
+        
+    
+    
+            circle_059f4a61a3584f2182cb8c00f9336c2c.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 272
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_06ef93472a814f868a5675df75123958 = L.circle(
+                [45.519253000000006, -122.6794749],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "7", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_4cfbff8113404fd0a593151b9b3ba2ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5bf0f548a30040d0bc0b2a35db222eef = $(`<div id="html_5bf0f548a30040d0bc0b2a35db222eef" style="width: 100.0%; height: 100.0%;">Pioneer Square North MAX Station</div>`)[0];
+            popup_4cfbff8113404fd0a593151b9b3ba2ae.setContent(html_5bf0f548a30040d0bc0b2a35db222eef);
+        
+
+        circle_06ef93472a814f868a5675df75123958.bindPopup(popup_4cfbff8113404fd0a593151b9b3ba2ae)
+        ;
+
+        
+    
+    
+            circle_06ef93472a814f868a5675df75123958.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_376084affa7545a08bf9aa9fa3cf98e6 = L.circle(
+                [45.5101734, -122.7810732],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "21", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_447a9bab2ce7480bb2ce765d6d4b514e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9af73adc11074053a4ae495cf6f71d3f = $(`<div id="html_9af73adc11074053a4ae495cf6f71d3f" style="width: 100.0%; height: 100.0%;">Sunset TC MAX Station</div>`)[0];
+            popup_447a9bab2ce7480bb2ce765d6d4b514e.setContent(html_9af73adc11074053a4ae495cf6f71d3f);
+        
+
+        circle_376084affa7545a08bf9aa9fa3cf98e6.bindPopup(popup_447a9bab2ce7480bb2ce765d6d4b514e)
+        ;
+
+        
+    
+    
+            circle_376084affa7545a08bf9aa9fa3cf98e6.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 21
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_469cea0544da4033bedf75986d8730db = L.circle(
+                [45.5772546, -122.5671405],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "334", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_f187905bc24049599982bea0ffe8a2a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_163703c745794e8495d6e201c2e92002 = $(`<div id="html_163703c745794e8495d6e201c2e92002" style="width: 100.0%; height: 100.0%;">Mt Hood Ave MAX Station</div>`)[0];
+            popup_f187905bc24049599982bea0ffe8a2a5.setContent(html_163703c745794e8495d6e201c2e92002);
+        
+
+        circle_469cea0544da4033bedf75986d8730db.bindPopup(popup_f187905bc24049599982bea0ffe8a2a5)
+        ;
+
+        
+    
+    
+            circle_469cea0544da4033bedf75986d8730db.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 334
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_10c76bb603074b61aa07a7a6541a4ecd = L.circle(
+                [45.51815360000001, -122.675346],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "260", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_d65f475101d3440fb72e7cccad08ed57 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98e348a8f6814d9cb8cd4f32610363fc = $(`<div id="html_98e348a8f6814d9cb8cd4f32610363fc" style="width: 100.0%; height: 100.0%;">Morrison/SW 3rd Ave MAX Station</div>`)[0];
+            popup_d65f475101d3440fb72e7cccad08ed57.setContent(html_98e348a8f6814d9cb8cd4f32610363fc);
+        
+
+        circle_10c76bb603074b61aa07a7a6541a4ecd.bindPopup(popup_d65f475101d3440fb72e7cccad08ed57)
+        ;
+
+        
+    
+    
+            circle_10c76bb603074b61aa07a7a6541a4ecd.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 260
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d717dc6063984eb194ebd041d460e156 = L.circle(
+                [45.518701, -122.6774021],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "30", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_165904d764bf4deda6a8fa2a65c22c63 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44f92602b10b484ba73a02a7df8e3b69 = $(`<div id="html_44f92602b10b484ba73a02a7df8e3b69" style="width: 100.0%; height: 100.0%;">Mall/SW 5th Ave MAX Station</div>`)[0];
+            popup_165904d764bf4deda6a8fa2a65c22c63.setContent(html_44f92602b10b484ba73a02a7df8e3b69);
+        
+
+        circle_d717dc6063984eb194ebd041d460e156.bindPopup(popup_165904d764bf4deda6a8fa2a65c22c63)
+        ;
+
+        
+    
+    
+            circle_d717dc6063984eb194ebd041d460e156.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 30
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3f2a380d51154cde94d28893a03eccf4 = L.circle(
+                [45.52269099999999, -122.559244],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "6", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_87e8bddffbef4aa6af39fda9ef916401 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a966dee03054eeda4ffc84c2ade7a4c = $(`<div id="html_4a966dee03054eeda4ffc84c2ade7a4c" style="width: 100.0%; height: 100.0%;">E 102nd Ave MAX Station</div>`)[0];
+            popup_87e8bddffbef4aa6af39fda9ef916401.setContent(html_4a966dee03054eeda4ffc84c2ade7a4c);
+        
+
+        circle_3f2a380d51154cde94d28893a03eccf4.bindPopup(popup_87e8bddffbef4aa6af39fda9ef916401)
+        ;
+
+        
+    
+    
+            circle_3f2a380d51154cde94d28893a03eccf4.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 6
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_498464f26a484ccf81bf49c26709dc28 = L.circle(
+                [45.587584, -122.5931],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "299", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_0cc8671f08344048a7e7dfd8fdf5b23b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6cc47f43b27e448098b8439efd4771d2 = $(`<div id="html_6cc47f43b27e448098b8439efd4771d2" style="width: 100.0%; height: 100.0%;">Portland International Airport MAX Station</div>`)[0];
+            popup_0cc8671f08344048a7e7dfd8fdf5b23b.setContent(html_6cc47f43b27e448098b8439efd4771d2);
+        
+
+        circle_498464f26a484ccf81bf49c26709dc28.bindPopup(popup_0cc8671f08344048a7e7dfd8fdf5b23b)
+        ;
+
+        
+    
+    
+            circle_498464f26a484ccf81bf49c26709dc28.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 299
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_70bab47924ec47579b8187e435b5c371 = L.circle(
+                [45.5180899, -122.6775982],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "93", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_e236bd21f69543fca7a962622336a6df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_289ca8fddfb04615b280718371df3d9c = $(`<div id="html_289ca8fddfb04615b280718371df3d9c" style="width: 100.0%; height: 100.0%;">Mall/SW 4th Ave MAX Station</div>`)[0];
+            popup_e236bd21f69543fca7a962622336a6df.setContent(html_289ca8fddfb04615b280718371df3d9c);
+        
+
+        circle_70bab47924ec47579b8187e435b5c371.bindPopup(popup_e236bd21f69543fca7a962622336a6df)
+        ;
+
+        
+    
+    
+            circle_70bab47924ec47579b8187e435b5c371.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 93
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_24e0e8e72d0b437b9984bfe6865d05b9 = L.circle(
+                [45.5225687, -122.5383701],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "13", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_b4dbc56121b54d7eb711f64f7170c0ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_500ce4ae092e478bae6d5b3d1b54a99c = $(`<div id="html_500ce4ae092e478bae6d5b3d1b54a99c" style="width: 100.0%; height: 100.0%;">E 122nd Ave MAX Station</div>`)[0];
+            popup_b4dbc56121b54d7eb711f64f7170c0ea.setContent(html_500ce4ae092e478bae6d5b3d1b54a99c);
+        
+
+        circle_24e0e8e72d0b437b9984bfe6865d05b9.bindPopup(popup_b4dbc56121b54d7eb711f64f7170c0ea)
+        ;
+
+        
+    
+    
+            circle_24e0e8e72d0b437b9984bfe6865d05b9.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 13
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_56faa87ac3c34aa08d2c832b08455cb4 = L.circle(
+                [45.5163962, -122.460831],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "2", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_976b55a276fb430e86d83a0560fadfe6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b5343561df44802a80f013a85cb6a77 = $(`<div id="html_4b5343561df44802a80f013a85cb6a77" style="width: 100.0%; height: 100.0%;">Ruby Junction/E 197th Ave MAX Station</div>`)[0];
+            popup_976b55a276fb430e86d83a0560fadfe6.setContent(html_4b5343561df44802a80f013a85cb6a77);
+        
+
+        circle_56faa87ac3c34aa08d2c832b08455cb4.bindPopup(popup_976b55a276fb430e86d83a0560fadfe6)
+        ;
+
+        
+    
+    
+            circle_56faa87ac3c34aa08d2c832b08455cb4.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_95961a26e71749aca56a02e4f7b7d0aa = L.circle(
+                [45.520615, -122.4707885],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "56", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_5c7c81ae09df49f4a7e4bb180000d009 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e79a9bd1b204a95bf66f87b05d2c7b0 = $(`<div id="html_1e79a9bd1b204a95bf66f87b05d2c7b0" style="width: 100.0%; height: 100.0%;">Rockwood/E 188th Ave MAX Station</div>`)[0];
+            popup_5c7c81ae09df49f4a7e4bb180000d009.setContent(html_1e79a9bd1b204a95bf66f87b05d2c7b0);
+        
+
+        circle_95961a26e71749aca56a02e4f7b7d0aa.bindPopup(popup_5c7c81ae09df49f4a7e4bb180000d009)
+        ;
+
+        
+    
+    
+            circle_95961a26e71749aca56a02e4f7b7d0aa.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 56
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b3acc05997fe42d9bddb52129cb9754e = L.circle(
+                [45.5301434, -122.6622307],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "29", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_a2efa552578e43cb8a5b0012b2d50876 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_659b4afdbf8a44b0abb40022637dc607 = $(`<div id="html_659b4afdbf8a44b0abb40022637dc607" style="width: 100.0%; height: 100.0%;">Convention Center MAX Station</div>`)[0];
+            popup_a2efa552578e43cb8a5b0012b2d50876.setContent(html_659b4afdbf8a44b0abb40022637dc607);
+        
+
+        circle_b3acc05997fe42d9bddb52129cb9754e.bindPopup(popup_a2efa552578e43cb8a5b0012b2d50876)
+        ;
+
+        
+    
+    
+            circle_b3acc05997fe42d9bddb52129cb9754e.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 29
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8e7a5224dbd942309d7f7c89f523fd7f = L.circle(
+                [45.5026552, -122.427018],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "1", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_ef3d250930ea4f4b8459717ff66ef6b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca1b8f8390894d7e8e104ce9a8529710 = $(`<div id="html_ca1b8f8390894d7e8e104ce9a8529710" style="width: 100.0%; height: 100.0%;">Gresham Central TC MAX Station</div>`)[0];
+            popup_ef3d250930ea4f4b8459717ff66ef6b3.setContent(html_ca1b8f8390894d7e8e104ce9a8529710);
+        
+
+        circle_8e7a5224dbd942309d7f7c89f523fd7f.bindPopup(popup_ef3d250930ea4f4b8459717ff66ef6b3)
+        ;
+
+        
+    
+    
+            circle_8e7a5224dbd942309d7f7c89f523fd7f.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c488c41fa0fd420ba3352772a43578c2 = L.circle(
+                [45.5057845, -122.43613229999998],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "259", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_48f6fc531d7d459f90a868ae3289fc73 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ddd25a0d99a84c4d9276503928ee9af1 = $(`<div id="html_ddd25a0d99a84c4d9276503928ee9af1" style="width: 100.0%; height: 100.0%;">Gresham City Hall MAX Station</div>`)[0];
+            popup_48f6fc531d7d459f90a868ae3289fc73.setContent(html_ddd25a0d99a84c4d9276503928ee9af1);
+        
+
+        circle_c488c41fa0fd420ba3352772a43578c2.bindPopup(popup_48f6fc531d7d459f90a868ae3289fc73)
+        ;
+
+        
+    
+    
+            circle_c488c41fa0fd420ba3352772a43578c2.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 259
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_00c9e24b41f54efab1b8b2b1d3904056 = L.circle(
+                [45.5185545, -122.6793104],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "28", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_3e5f9de6562747fbae27b13d5d55d1b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17c98c69a11c45ad87cfc1489bf7db06 = $(`<div id="html_17c98c69a11c45ad87cfc1489bf7db06" style="width: 100.0%; height: 100.0%;">Pioneer Square South MAX Station</div>`)[0];
+            popup_3e5f9de6562747fbae27b13d5d55d1b4.setContent(html_17c98c69a11c45ad87cfc1489bf7db06);
+        
+
+        circle_00c9e24b41f54efab1b8b2b1d3904056.bindPopup(popup_3e5f9de6562747fbae27b13d5d55d1b4)
+        ;
+
+        
+    
+    
+            circle_00c9e24b41f54efab1b8b2b1d3904056.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 28
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e2dc04440a714b89b6a2c81506f187ad = L.circle(
+                [45.5287352, -122.6028256],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "50", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_1ddd810452ff463c8806cb02a46fe29f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_856e60bffd18485585e831a6202f33ee = $(`<div id="html_856e60bffd18485585e831a6202f33ee" style="width: 100.0%; height: 100.0%;">NE 60th Ave MAX Station</div>`)[0];
+            popup_1ddd810452ff463c8806cb02a46fe29f.setContent(html_856e60bffd18485585e831a6202f33ee);
+        
+
+        circle_e2dc04440a714b89b6a2c81506f187ad.bindPopup(popup_1ddd810452ff463c8806cb02a46fe29f)
+        ;
+
+        
+    
+    
+            circle_e2dc04440a714b89b6a2c81506f187ad.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 50
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8167d96ee25140a48e8718c8c8b2188f = L.circle(
+                [45.5301398, -122.6663669],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "83", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_d10bfcfdd62443d79057843c6d635d45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad403ba627044dd88e15ea729e14c9aa = $(`<div id="html_ad403ba627044dd88e15ea729e14c9aa" style="width: 100.0%; height: 100.0%;">Rose Quarter TC MAX Station</div>`)[0];
+            popup_d10bfcfdd62443d79057843c6d635d45.setContent(html_ad403ba627044dd88e15ea729e14c9aa);
+        
+
+        circle_8167d96ee25140a48e8718c8c8b2188f.bindPopup(popup_d10bfcfdd62443d79057843c6d635d45)
+        ;
+
+        
+    
+    
+            circle_8167d96ee25140a48e8718c8c8b2188f.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 83
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b736052b07514893a4ced42d981ef3db = L.circle(
+                [45.51996060000001, -122.6723278],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "61", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_f1b3134e1cfa47c8a0944393a0c301a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cdaf461ed2c7429aa62c69602b43bf5c = $(`<div id="html_cdaf461ed2c7429aa62c69602b43bf5c" style="width: 100.0%; height: 100.0%;">Oak/ SW 1st Ave MAX Station</div>`)[0];
+            popup_f1b3134e1cfa47c8a0944393a0c301a4.setContent(html_cdaf461ed2c7429aa62c69602b43bf5c);
+        
+
+        circle_b736052b07514893a4ced42d981ef3db.bindPopup(popup_f1b3134e1cfa47c8a0944393a0c301a4)
+        ;
+
+        
+    
+    
+            circle_b736052b07514893a4ced42d981ef3db.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 61
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7e7860f6236c46b9bf133c19dbd914a1 = L.circle(
+                [45.5329016, -122.6211318],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "89", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_739dc56ee1094389bd0d8047c25f95ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7f8cd5bc2a54d4b9175ee6624ef14c1 = $(`<div id="html_c7f8cd5bc2a54d4b9175ee6624ef14c1" style="width: 100.0%; height: 100.0%;">Hollywood/NE 42nd Ave TC MAX Station</div>`)[0];
+            popup_739dc56ee1094389bd0d8047c25f95ab.setContent(html_c7f8cd5bc2a54d4b9175ee6624ef14c1);
+        
+
+        circle_7e7860f6236c46b9bf133c19dbd914a1.bindPopup(popup_739dc56ee1094389bd0d8047c25f95ab)
+        ;
+
+        
+    
+    
+            circle_7e7860f6236c46b9bf133c19dbd914a1.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 89
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_35fd13ef6b864c589706c9524d652710 = L.circle(
+                [45.5300884, -122.65381979999998],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "31", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_6245f8d63e5c482ba8f9d6826837bcc9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac693144d4e840e59d3b0b1c471541f4 = $(`<div id="html_ac693144d4e840e59d3b0b1c471541f4" style="width: 100.0%; height: 100.0%;">Lloyd Center/NE 11th Ave MAX Station</div>`)[0];
+            popup_6245f8d63e5c482ba8f9d6826837bcc9.setContent(html_ac693144d4e840e59d3b0b1c471541f4);
+        
+
+        circle_35fd13ef6b864c589706c9524d652710.bindPopup(popup_6245f8d63e5c482ba8f9d6826837bcc9)
+        ;
+
+        
+    
+    
+            circle_35fd13ef6b864c589706c9524d652710.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 31
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_5bcf74b6616d4040b3c1b843077b20b4 = L.circle(
+                [45.5222454, -122.51002],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "43", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_166c0270c6ca4fc0b0f4905fe923aa09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f08cb8a7f09c4b59bbdf3413fb4f558a = $(`<div id="html_f08cb8a7f09c4b59bbdf3413fb4f558a" style="width: 100.0%; height: 100.0%;">E 148th Ave MAX Station</div>`)[0];
+            popup_166c0270c6ca4fc0b0f4905fe923aa09.setContent(html_f08cb8a7f09c4b59bbdf3413fb4f558a);
+        
+
+        circle_5bcf74b6616d4040b3c1b843077b20b4.bindPopup(popup_166c0270c6ca4fc0b0f4905fe923aa09)
+        ;
+
+        
+    
+    
+            circle_5bcf74b6616d4040b3c1b843077b20b4.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 43
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_382b2379bb97407292a6edd9dccfb1b4 = L.circle(
+                [45.5334245, -122.5783617],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "1", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_d4913866010142389ffe74c53e59a0e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4157bf012dac4b0fb5bb94ef73db080c = $(`<div id="html_4157bf012dac4b0fb5bb94ef73db080c" style="width: 100.0%; height: 100.0%;">NE 82nd Ave MAX Station</div>`)[0];
+            popup_d4913866010142389ffe74c53e59a0e7.setContent(html_4157bf012dac4b0fb5bb94ef73db080c);
+        
+
+        circle_382b2379bb97407292a6edd9dccfb1b4.bindPopup(popup_d4913866010142389ffe74c53e59a0e7)
+        ;
+
+        
+    
+    
+            circle_382b2379bb97407292a6edd9dccfb1b4.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_fab40173cc9047d092fc8ea276e3f189 = L.circle(
+                [45.52207260000001, -122.4777319],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "1", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_76d26eef3f864178afda4bc7291c81cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd268021d3aa4c7daa8f2a096b47106a = $(`<div id="html_fd268021d3aa4c7daa8f2a096b47106a" style="width: 100.0%; height: 100.0%;">E 181st Ave MAX Station</div>`)[0];
+            popup_76d26eef3f864178afda4bc7291c81cc.setContent(html_fd268021d3aa4c7daa8f2a096b47106a);
+        
+
+        circle_fab40173cc9047d092fc8ea276e3f189.bindPopup(popup_76d26eef3f864178afda4bc7291c81cc)
+        ;
+
+        
+    
+    
+            circle_fab40173cc9047d092fc8ea276e3f189.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ca049e91cb7c4a95a08e46bdf6c3aa9d = L.circle(
+                [45.5221627, -122.4868274],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "132", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_8558de11f08240babc5de28f9bb6b2ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7b3d4db1d43435c8dd084b1975b23d7 = $(`<div id="html_b7b3d4db1d43435c8dd084b1975b23d7" style="width: 100.0%; height: 100.0%;">E 172nd Ave MAX Station</div>`)[0];
+            popup_8558de11f08240babc5de28f9bb6b2ce.setContent(html_b7b3d4db1d43435c8dd084b1975b23d7);
+        
+
+        circle_ca049e91cb7c4a95a08e46bdf6c3aa9d.bindPopup(popup_8558de11f08240babc5de28f9bb6b2ce)
+        ;
+
+        
+    
+    
+            circle_ca049e91cb7c4a95a08e46bdf6c3aa9d.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 132
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9336d8384f58405bb4b512c236a0e083 = L.circle(
+                [45.5306376, -122.5636116],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "25", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_00c129ba5e414e8a941df354ba3cb57a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8879f4521b3b4280b3e98805e5d9202b = $(`<div id="html_8879f4521b3b4280b3e98805e5d9202b" style="width: 100.0%; height: 100.0%;">Gateway/NE 99th Ave TC MAX Station</div>`)[0];
+            popup_00c129ba5e414e8a941df354ba3cb57a.setContent(html_8879f4521b3b4280b3e98805e5d9202b);
+        
+
+        circle_9336d8384f58405bb4b512c236a0e083.bindPopup(popup_00c129ba5e414e8a941df354ba3cb57a)
+        ;
+
+        
+    
+    
+            circle_9336d8384f58405bb4b512c236a0e083.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 25
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e703d17daa8540d781c8bc82c3f1f747 = L.circle(
+                [45.521301, -122.978373],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "163", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_ffe75d46cb2746c5b6fb567ac734d5ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_485e04c715144fe9837c953a6f166e12 = $(`<div id="html_485e04c715144fe9837c953a6f166e12" style="width: 100.0%; height: 100.0%;">Tuality Hospital/SE 8th Ave MAX Station</div>`)[0];
+            popup_ffe75d46cb2746c5b6fb567ac734d5ae.setContent(html_485e04c715144fe9837c953a6f166e12);
+        
+
+        circle_e703d17daa8540d781c8bc82c3f1f747.bindPopup(popup_ffe75d46cb2746c5b6fb567ac734d5ae)
+        ;
+
+        
+    
+    
+            circle_e703d17daa8540d781c8bc82c3f1f747.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 163
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_fd9154fb5974435cbc026332950bb62d = L.circle(
+                [45.5172237, -122.6744722],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "318", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_92a8eeb55bd246c5bf9f607e7bae9447 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8531d167325b40658bf84c2845b61c6d = $(`<div id="html_8531d167325b40658bf84c2845b61c6d" style="width: 100.0%; height: 100.0%;">Yamhill District MAX Station</div>`)[0];
+            popup_92a8eeb55bd246c5bf9f607e7bae9447.setContent(html_8531d167325b40658bf84c2845b61c6d);
+        
+
+        circle_fd9154fb5974435cbc026332950bb62d.bindPopup(popup_92a8eeb55bd246c5bf9f607e7bae9447)
+        ;
+
+        
+    
+    
+            circle_fd9154fb5974435cbc026332950bb62d.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 318
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ede2bd4e572b47b9a1c66af9308d6039 = L.circle(
+                [45.505228, -122.842148],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "347", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_52556b3d7f8946b3a55327d1e00bc0eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3156d3052dcc489ba62380f42aa05fef = $(`<div id="html_3156d3052dcc489ba62380f42aa05fef" style="width: 100.0%; height: 100.0%;">Merlo Rd/SW 158th Ave MAX Station</div>`)[0];
+            popup_52556b3d7f8946b3a55327d1e00bc0eb.setContent(html_3156d3052dcc489ba62380f42aa05fef);
+        
+
+        circle_ede2bd4e572b47b9a1c66af9308d6039.bindPopup(popup_52556b3d7f8946b3a55327d1e00bc0eb)
+        ;
+
+        
+    
+    
+            circle_ede2bd4e572b47b9a1c66af9308d6039.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 347
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_93c5d4d6b88a4807805bcb21c90ee34e = L.circle(
+                [45.5099231, -122.8515139],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "128", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_d5c3384bb081455094ed7c25b19e18ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5152202c8f6147538f4e97cf3b23a58d = $(`<div id="html_5152202c8f6147538f4e97cf3b23a58d" style="width: 100.0%; height: 100.0%;">Elmonica/SW 170th Ave MAX Station</div>`)[0];
+            popup_d5c3384bb081455094ed7c25b19e18ce.setContent(html_5152202c8f6147538f4e97cf3b23a58d);
+        
+
+        circle_93c5d4d6b88a4807805bcb21c90ee34e.bindPopup(popup_d5c3384bb081455094ed7c25b19e18ce)
+        ;
+
+        
+    
+    
+            circle_93c5d4d6b88a4807805bcb21c90ee34e.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 128
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_0db4a25de23b4608a7903b50cf85ae0a = L.circle(
+                [45.5302908, -122.9158316],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "1", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_d294f04086ad47c182390c4691ca4921 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8db5b186ce9444d08ed350af72b97b16 = $(`<div id="html_8db5b186ce9444d08ed350af72b97b16" style="width: 100.0%; height: 100.0%;">Orenco/NW 231st Ave MAX Station</div>`)[0];
+            popup_d294f04086ad47c182390c4691ca4921.setContent(html_8db5b186ce9444d08ed350af72b97b16);
+        
+
+        circle_0db4a25de23b4608a7903b50cf85ae0a.bindPopup(popup_d294f04086ad47c182390c4691ca4921)
+        ;
+
+        
+    
+    
+            circle_0db4a25de23b4608a7903b50cf85ae0a.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_52ca1596a176430ea1474737730d6591 = L.circle(
+                [45.5017775, -122.4185058],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "45", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_8b80559c2f1a42a6858614cc3ee2815d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21a41976080d4bd282524e1fc5b3747c = $(`<div id="html_21a41976080d4bd282524e1fc5b3747c" style="width: 100.0%; height: 100.0%;">Cleveland Ave MAX Station</div>`)[0];
+            popup_8b80559c2f1a42a6858614cc3ee2815d.setContent(html_21a41976080d4bd282524e1fc5b3747c);
+        
+
+        circle_52ca1596a176430ea1474737730d6591.bindPopup(popup_8b80559c2f1a42a6858614cc3ee2815d)
+        ;
+
+        
+    
+    
+            circle_52ca1596a176430ea1474737730d6591.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 45
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_428d89f678224a80a74c32e5a293ce18 = L.circle(
+                [45.441226, -122.639938],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "81", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_6b29cbb864064f7b916984ab77fb6406 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b9db52f037544ebb1b383346e2291f9 = $(`<div id="html_8b9db52f037544ebb1b383346e2291f9" style="width: 100.0%; height: 100.0%;">Milwaukie/Main St MAX Station</div>`)[0];
+            popup_6b29cbb864064f7b916984ab77fb6406.setContent(html_8b9db52f037544ebb1b383346e2291f9);
+        
+
+        circle_428d89f678224a80a74c32e5a293ce18.bindPopup(popup_6b29cbb864064f7b916984ab77fb6406)
+        ;
+
+        
+    
+    
+            circle_428d89f678224a80a74c32e5a293ce18.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 81
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_47844ac0763f4f95a8a1bb17a830cb43 = L.circle(
+                [45.5723608, -122.5581625],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "8", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_4a3f8e975b4d4ab79dbfe4d6642fa735 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd4398e7060343f4b7c5d491a3993a9a = $(`<div id="html_cd4398e7060343f4b7c5d491a3993a9a" style="width: 100.0%; height: 100.0%;">Cascades MAX Station</div>`)[0];
+            popup_4a3f8e975b4d4ab79dbfe4d6642fa735.setContent(html_cd4398e7060343f4b7c5d491a3993a9a);
+        
+
+        circle_47844ac0763f4f95a8a1bb17a830cb43.bindPopup(popup_4a3f8e975b4d4ab79dbfe4d6642fa735)
+        ;
+
+        
+    
+    
+            circle_47844ac0763f4f95a8a1bb17a830cb43.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 8
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_bb528a641fe24cbb885580ddb56da5ab = L.circle(
+                [45.4747724, -122.6400047],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "37", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_5dbccaca9615478daadf9a761fe1ad2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27b01b1232d34ed586eaa3da42f66180 = $(`<div id="html_27b01b1232d34ed586eaa3da42f66180" style="width: 100.0%; height: 100.0%;">SE Bybee Blvd MAX Station</div>`)[0];
+            popup_5dbccaca9615478daadf9a761fe1ad2d.setContent(html_27b01b1232d34ed586eaa3da42f66180);
+        
+
+        circle_bb528a641fe24cbb885580ddb56da5ab.bindPopup(popup_5dbccaca9615478daadf9a761fe1ad2d)
+        ;
+
+        
+    
+    
+            circle_bb528a641fe24cbb885580ddb56da5ab.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 37
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_86837bdc235642999843c5f8489e8b9b = L.circle(
+                [45.46280700000001, -122.637633],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "20", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_6e44f352caca47c99f37e6a720fbc718 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a23e839707a448c1b93f665a7fab8190 = $(`<div id="html_a23e839707a448c1b93f665a7fab8190" style="width: 100.0%; height: 100.0%;">SE Tacoma St/Johnson Creek MAX Station</div>`)[0];
+            popup_6e44f352caca47c99f37e6a720fbc718.setContent(html_a23e839707a448c1b93f665a7fab8190);
+        
+
+        circle_86837bdc235642999843c5f8489e8b9b.bindPopup(popup_6e44f352caca47c99f37e6a720fbc718)
+        ;
+
+        
+    
+    
+            circle_86837bdc235642999843c5f8489e8b9b.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 20
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_fa63847cab264dd880b268201d2ee177 = L.circle(
+                [45.490898, -122.648507],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "423", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_919a1f6c35f34d3aabf1d1b06f715e4e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef215594cb5a4f6b90ad4cf074decb5b = $(`<div id="html_ef215594cb5a4f6b90ad4cf074decb5b" style="width: 100.0%; height: 100.0%;">SE 17th Ave & Holgate Blvd MAX Station</div>`)[0];
+            popup_919a1f6c35f34d3aabf1d1b06f715e4e.setContent(html_ef215594cb5a4f6b90ad4cf074decb5b);
+        
+
+        circle_fa63847cab264dd880b268201d2ee177.bindPopup(popup_919a1f6c35f34d3aabf1d1b06f715e4e)
+        ;
+
+        
+    
+    
+            circle_fa63847cab264dd880b268201d2ee177.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 423
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_782a5cc0246e48a692f33114342d388d = L.circle(
+                [45.52724629999999, -122.6765418],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "212", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_ad7e37500bcd4dc294e3156fbb906d1f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2686749e02dd4e91a56d539a9151ed58 = $(`<div id="html_2686749e02dd4e91a56d539a9151ed58" style="width: 100.0%; height: 100.0%;">Union Station/NW 6th and Hoyt MAX Station</div>`)[0];
+            popup_ad7e37500bcd4dc294e3156fbb906d1f.setContent(html_2686749e02dd4e91a56d539a9151ed58);
+        
+
+        circle_782a5cc0246e48a692f33114342d388d.bindPopup(popup_ad7e37500bcd4dc294e3156fbb906d1f)
+        ;
+
+        
+    
+    
+            circle_782a5cc0246e48a692f33114342d388d.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 212
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f63fb85fef064824bb7a5cc6c509dd63 = L.circle(
+                [45.52219229999999, -122.6768457],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "238", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_8207b273205a429490a105cf5488d67c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad3243eddb604f12ba86fc6fa87fd3c6 = $(`<div id="html_ad3243eddb604f12ba86fc6fa87fd3c6" style="width: 100.0%; height: 100.0%;">SW 6th and Pine MAX Station</div>`)[0];
+            popup_8207b273205a429490a105cf5488d67c.setContent(html_ad3243eddb604f12ba86fc6fa87fd3c6);
+        
+
+        circle_f63fb85fef064824bb7a5cc6c509dd63.bindPopup(popup_8207b273205a429490a105cf5488d67c)
+        ;
+
+        
+    
+    
+            circle_f63fb85fef064824bb7a5cc6c509dd63.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 238
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e35c517d594149f6b93c78204d5d299c = L.circle(
+                [45.523992, -122.675528],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "1", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_e20a205417d948c9aa3ad2875bedcba9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_419331ff7070447e8ff779b9eed69cd7 = $(`<div id="html_419331ff7070447e8ff779b9eed69cd7" style="width: 100.0%; height: 100.0%;">NW 5th and Couch MAX Station</div>`)[0];
+            popup_e20a205417d948c9aa3ad2875bedcba9.setContent(html_419331ff7070447e8ff779b9eed69cd7);
+        
+
+        circle_e35c517d594149f6b93c78204d5d299c.bindPopup(popup_e20a205417d948c9aa3ad2875bedcba9)
+        ;
+
+        
+    
+    
+            circle_e35c517d594149f6b93c78204d5d299c.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d50c6670f17645bf881670ed038a39c4 = L.circle(
+                [45.4914575, -122.8016546],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "277", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_ec51c7b9047c4ebc893c3772d5fec4ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bee386aca2724e83890427642a675dc0 = $(`<div id="html_bee386aca2724e83890427642a675dc0" style="width: 100.0%; height: 100.0%;">Beaverton TC MAX Station</div>`)[0];
+            popup_ec51c7b9047c4ebc893c3772d5fec4ec.setContent(html_bee386aca2724e83890427642a675dc0);
+        
+
+        circle_d50c6670f17645bf881670ed038a39c4.bindPopup(popup_ec51c7b9047c4ebc893c3772d5fec4ec)
+        ;
+
+        
+    
+    
+            circle_d50c6670f17645bf881670ed038a39c4.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 277
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_46f5ae3c3f0c49aeb07ae338a0da4bee = L.circle(
+                [45.5183125, -122.677939],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "4", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_d7740b03bf6b40daa67557cf322d9eb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49c123fe04bb4524896f855bf6f38dc4 = $(`<div id="html_49c123fe04bb4524896f855bf6f38dc4" style="width: 100.0%; height: 100.0%;">Pioneer Place/SW 5th MAX Station</div>`)[0];
+            popup_d7740b03bf6b40daa67557cf322d9eb7.setContent(html_49c123fe04bb4524896f855bf6f38dc4);
+        
+
+        circle_46f5ae3c3f0c49aeb07ae338a0da4bee.bindPopup(popup_d7740b03bf6b40daa67557cf322d9eb7)
+        ;
+
+        
+    
+    
+            circle_46f5ae3c3f0c49aeb07ae338a0da4bee.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 4
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6a252f4af9ad4c6f922d7073534d0871 = L.circle(
+                [45.502734, -122.671252],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "37", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_8091616a2b4048a3b5e7d93389352eb9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d72def6d60d74619b920852468196742 = $(`<div id="html_d72def6d60d74619b920852468196742" style="width: 100.0%; height: 100.0%;">South Waterfront/SW Moody Ave MAX Station</div>`)[0];
+            popup_8091616a2b4048a3b5e7d93389352eb9.setContent(html_d72def6d60d74619b920852468196742);
+        
+
+        circle_6a252f4af9ad4c6f922d7073534d0871.bindPopup(popup_8091616a2b4048a3b5e7d93389352eb9)
+        ;
+
+        
+    
+    
+            circle_6a252f4af9ad4c6f922d7073534d0871.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 37
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_221236fd158d495a9188f045a354f76e = L.circle(
+                [45.5079331, -122.6806855],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "38", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_e4c820b74b724dacbc7a688b46061007 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_535eb6d8dce34122b10fc0d225d4e079 = $(`<div id="html_535eb6d8dce34122b10fc0d225d4e079" style="width: 100.0%; height: 100.0%;">Lincoln St/SW 3rd Ave MAX Station</div>`)[0];
+            popup_e4c820b74b724dacbc7a688b46061007.setContent(html_535eb6d8dce34122b10fc0d225d4e079);
+        
+
+        circle_221236fd158d495a9188f045a354f76e.bindPopup(popup_e4c820b74b724dacbc7a688b46061007)
+        ;
+
+        
+    
+    
+            circle_221236fd158d495a9188f045a354f76e.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 38
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d32d276e905f456f827a8d341b7c891e = L.circle(
+                [45.6053587, -122.68574479999998],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "22", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_030d7e4efa8d44e18c63bbfc62a4e3a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3377da1739524128a52456d08fcd4e0d = $(`<div id="html_3377da1739524128a52456d08fcd4e0d" style="width: 100.0%; height: 100.0%;">Expo Center MAX Station</div>`)[0];
+            popup_030d7e4efa8d44e18c63bbfc62a4e3a9.setContent(html_3377da1739524128a52456d08fcd4e0d);
+        
+
+        circle_d32d276e905f456f827a8d341b7c891e.bindPopup(popup_030d7e4efa8d44e18c63bbfc62a4e3a9)
+        ;
+
+        
+    
+    
+            circle_d32d276e905f456f827a8d341b7c891e.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 22
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_38d3156f540248bf883acbf8ff2726d3 = L.circle(
+                [45.548709, -122.681011],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "19", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_806e075a6f954485b853b98305ba085f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09ca2a0330f54f3f8b56a851bd18bfc2 = $(`<div id="html_09ca2a0330f54f3f8b56a851bd18bfc2" style="width: 100.0%; height: 100.0%;">Overlook Park MAX Station</div>`)[0];
+            popup_806e075a6f954485b853b98305ba085f.setContent(html_09ca2a0330f54f3f8b56a851bd18bfc2);
+        
+
+        circle_38d3156f540248bf883acbf8ff2726d3.bindPopup(popup_806e075a6f954485b853b98305ba085f)
+        ;
+
+        
+    
+    
+            circle_38d3156f540248bf883acbf8ff2726d3.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 19
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b66f81432a504106a81a5d8ee1ec290a = L.circle(
+                [45.53948949999999, -122.6753652],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "43", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_076f11d9e1df4d42a2fde6381fc827a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7dedaad2a6c84189b3354a95797e0800 = $(`<div id="html_7dedaad2a6c84189b3354a95797e0800" style="width: 100.0%; height: 100.0%;">Albina/Mississippi MAX Station</div>`)[0];
+            popup_076f11d9e1df4d42a2fde6381fc827a1.setContent(html_7dedaad2a6c84189b3354a95797e0800);
+        
+
+        circle_b66f81432a504106a81a5d8ee1ec290a.bindPopup(popup_076f11d9e1df4d42a2fde6381fc827a1)
+        ;
+
+        
+    
+    
+            circle_b66f81432a504106a81a5d8ee1ec290a.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 43
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_868c2f632f834603b77a52c6076597cb = L.circle(
+                [45.555211, -122.682302],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "14", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_d5a5b14e4625466ea150a7565e6eacce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_524c84fbb2e049aea6cd858dfb1cf685 = $(`<div id="html_524c84fbb2e049aea6cd858dfb1cf685" style="width: 100.0%; height: 100.0%;">N Prescott St MAX Station</div>`)[0];
+            popup_d5a5b14e4625466ea150a7565e6eacce.setContent(html_524c84fbb2e049aea6cd858dfb1cf685);
+        
+
+        circle_868c2f632f834603b77a52c6076597cb.bindPopup(popup_d5a5b14e4625466ea150a7565e6eacce)
+        ;
+
+        
+    
+    
+            circle_868c2f632f834603b77a52c6076597cb.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 14
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b8ea708597b44fed8bca79e93924d637 = L.circle(
+                [45.50848720000001, -122.6658475],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "3", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_89fc1c6cc9554020b1e23817b72d7111 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_718ed5fc96fb41b0899b48ab5cd77d4d = $(`<div id="html_718ed5fc96fb41b0899b48ab5cd77d4d" style="width: 100.0%; height: 100.0%;">OMSI/SE Water Ave MAX Station</div>`)[0];
+            popup_89fc1c6cc9554020b1e23817b72d7111.setContent(html_718ed5fc96fb41b0899b48ab5cd77d4d);
+        
+
+        circle_b8ea708597b44fed8bca79e93924d637.bindPopup(popup_89fc1c6cc9554020b1e23817b72d7111)
+        ;
+
+        
+    
+    
+            circle_b8ea708597b44fed8bca79e93924d637.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_af74a80646d0473f813df649efba13f2 = L.circle(
+                [45.430734, -122.635065],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "228", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_00fbd6144f2e43cb84520c7e3b0ada5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6cb035a6b38410fb9a5fba1647c1712 = $(`<div id="html_f6cb035a6b38410fb9a5fba1647c1712" style="width: 100.0%; height: 100.0%;">SE Park Ave MAX Station</div>`)[0];
+            popup_00fbd6144f2e43cb84520c7e3b0ada5d.setContent(html_f6cb035a6b38410fb9a5fba1647c1712);
+        
+
+        circle_af74a80646d0473f813df649efba13f2.bindPopup(popup_00fbd6144f2e43cb84520c7e3b0ada5d)
+        ;
+
+        
+    
+    
+            circle_af74a80646d0473f813df649efba13f2.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 228
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_5185e4cf0e0547658f2b72f35f6cb97e = L.circle(
+                [45.5243256, -122.6764273],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "141", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_4c348cc7ce414364ba150fcfaf180116 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a756edc3dc8f41f58a9adae84c84287d = $(`<div id="html_a756edc3dc8f41f58a9adae84c84287d" style="width: 100.0%; height: 100.0%;">NW 6th and Davis MAX Station</div>`)[0];
+            popup_4c348cc7ce414364ba150fcfaf180116.setContent(html_a756edc3dc8f41f58a9adae84c84287d);
+        
+
+        circle_5185e4cf0e0547658f2b72f35f6cb97e.bindPopup(popup_4c348cc7ce414364ba150fcfaf180116)
+        ;
+
+        
+    
+    
+            circle_5185e4cf0e0547658f2b72f35f6cb97e.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 141
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_337ea3fb6da64217abd50ba16ab01dc6 = L.circle(
+                [45.521573, -122.676178],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "50", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_4f24965d251e4c2e8e053f1c7797ebb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46b515f366a744a9a0c4e338e7f456f1 = $(`<div id="html_46b515f366a744a9a0c4e338e7f456f1" style="width: 100.0%; height: 100.0%;">SW 5th and Oak MAX Station</div>`)[0];
+            popup_4f24965d251e4c2e8e053f1c7797ebb7.setContent(html_46b515f366a744a9a0c4e338e7f456f1);
+        
+
+        circle_337ea3fb6da64217abd50ba16ab01dc6.bindPopup(popup_4f24965d251e4c2e8e053f1c7797ebb7)
+        ;
+
+        
+    
+    
+            circle_337ea3fb6da64217abd50ba16ab01dc6.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 50
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1c5759b8e9a54c63ba3aa1827d7aeb58 = L.circle(
+                [45.51171189999999, -122.6815588],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "84", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_4f0eb36c06ff4f8c875a842ebaf3cead = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d307f79cec545efb597e795de5109a9 = $(`<div id="html_0d307f79cec545efb597e795de5109a9" style="width: 100.0%; height: 100.0%;">PSU Urban Center/SW 5th and Mill MAX Station</div>`)[0];
+            popup_4f0eb36c06ff4f8c875a842ebaf3cead.setContent(html_0d307f79cec545efb597e795de5109a9);
+        
+
+        circle_1c5759b8e9a54c63ba3aa1827d7aeb58.bindPopup(popup_4f0eb36c06ff4f8c875a842ebaf3cead)
+        ;
+
+        
+    
+    
+            circle_1c5759b8e9a54c63ba3aa1827d7aeb58.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 84
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9d7539b83cad44f8af83891cfea2e5a1 = L.circle(
+                [45.5081907, -122.4415814],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "231", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_1d8ccf373e11496e991259ed4b322c11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef8c7acfb02a4033ae435bcef6cea811 = $(`<div id="html_ef8c7acfb02a4033ae435bcef6cea811" style="width: 100.0%; height: 100.0%;">Civic Drive MAX Station</div>`)[0];
+            popup_1d8ccf373e11496e991259ed4b322c11.setContent(html_ef8c7acfb02a4033ae435bcef6cea811);
+        
+
+        circle_9d7539b83cad44f8af83891cfea2e5a1.bindPopup(popup_1d8ccf373e11496e991259ed4b322c11)
+        ;
+
+        
+    
+    
+            circle_9d7539b83cad44f8af83891cfea2e5a1.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 231
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_0a1cf21f7cdc4223a575276e1005fd80 = L.circle(
+                [45.52683589999999, -122.6756532],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "340", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_014fe8105b30496184ab5f2a805fc40e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b291360821454e51a9e53550ecba66b8 = $(`<div id="html_b291360821454e51a9e53550ecba66b8" style="width: 100.0%; height: 100.0%;">Union Station/NW 5th and Glisan MAX Station</div>`)[0];
+            popup_014fe8105b30496184ab5f2a805fc40e.setContent(html_b291360821454e51a9e53550ecba66b8);
+        
+
+        circle_0a1cf21f7cdc4223a575276e1005fd80.bindPopup(popup_014fe8105b30496184ab5f2a805fc40e)
+        ;
+
+        
+    
+    
+            circle_0a1cf21f7cdc4223a575276e1005fd80.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 340
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_721355f9c2b8438baf7fba7de65ae5fc = L.circle(
+                [45.5189101, -122.6786241],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": "42", "stroke": true, "weight": 3}
+            ).addTo(map_e2f1a51fce6e467886f26d3419ec2857);
+        
+    
+        var popup_eff6f28504464b2185ccb62335a56be2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ba142fc248a4e1d81cffa8a2381a089 = $(`<div id="html_1ba142fc248a4e1d81cffa8a2381a089" style="width: 100.0%; height: 100.0%;">Pioneer Courthouse/SW 6th MAX Station</div>`)[0];
+            popup_eff6f28504464b2185ccb62335a56be2.setContent(html_1ba142fc248a4e1d81cffa8a2381a089);
+        
+
+        circle_721355f9c2b8438baf7fba7de65ae5fc.bindPopup(popup_eff6f28504464b2185ccb62335a56be2)
+        ;
+
+        
+    
+    
+            circle_721355f9c2b8438baf7fba7de65ae5fc.bindTooltip(
+                `<div>
+                     Crimes within ~500 ft in 2019 (YTD): 42
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
