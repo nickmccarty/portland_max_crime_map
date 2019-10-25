@@ -9,7 +9,7 @@ def index():
     # Set basemap
 
     crime_map = folium.Map(location = [45.54, -122.6750],
-                        zoom_start = 11,
+                        zoom_start = 12,
                         tiles = 'stamentoner')
  
 # Iteratively add circle markers to map
